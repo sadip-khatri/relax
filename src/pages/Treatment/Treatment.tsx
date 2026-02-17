@@ -1,4 +1,3 @@
-import React from "react";
 import TreatmentHero from "../../components/Treatment/TreatmentHero";
 import Description from "../../components/Treatment/Description";
 import ExploreOurTreatments from "../../components/Treatment/ExploreOurTreatments";

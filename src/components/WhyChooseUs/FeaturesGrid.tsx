@@ -185,7 +185,9 @@ const FeaturesGrid: React.FC = () => {
           return (
             <div
               key={id}
-              ref={(el) => (cardsRef.current[index] = el)}
+              ref={(el) => {
+                cardsRef.current[index] = el;
+              }}
               data-id={id}
               className={`
                 bg-white rounded-xl p-6 flex flex-col items-start text-gray-800

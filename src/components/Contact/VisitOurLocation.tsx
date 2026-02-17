@@ -1,4 +1,3 @@
-import React from "react";
 import { MapPin, Building2, Flag, Train, ParkingCircle } from "lucide-react";
 import { motion } from "framer-motion";
 

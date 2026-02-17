@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 
 const hours = [
@@ -18,7 +17,7 @@ const containerVariants = {
     scale: 1,
     transition: {
       duration: 0.6,
-      ease: "easeOut",
+      ease: "easeInOut" as const,
       staggerChildren: 0.12,
     },
   },

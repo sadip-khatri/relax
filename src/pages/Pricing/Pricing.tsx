@@ -1,4 +1,3 @@
-import React from "react";
 import PricingHero from "../../components/Pricing/PricingHero";
 import PriceDescription from "../../components/Pricing/PriceDescription";
 import OurPricing from "../../components/Pricing/OurPricing";

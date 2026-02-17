@@ -1,4 +1,3 @@
-import React from "react";
 import WhyChooseUsHero from "../../components/WhyChooseUs/WhyChooseUsHero";
 import WhyDesc from "../../components/WhyChooseUs/WhyDesc";
 import FeaturesGrid from "../../components/WhyChooseUs/FeaturesGrid";

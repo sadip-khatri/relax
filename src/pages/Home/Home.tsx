@@ -1,4 +1,3 @@
-import React from "react";
 import HomeHero from "../../components/Home/HomeHero";
 import PrivateTreatment from "../../components/Home/PrivateTreatment";
 import Treatments from "../../components/Home/Treatments";

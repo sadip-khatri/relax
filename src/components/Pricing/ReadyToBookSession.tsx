@@ -1,5 +1,3 @@
-import React from "react";
-
 const ReadyToBookSession = () => {
   return (
     <section className="bg-white py-16 px-6 md:px-20 border-t">

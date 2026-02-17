@@ -23,7 +23,7 @@ const testimonials = [
 
 const TestimonialsCarousel: React.FC = () => {
   const [activeIndex, setActiveIndex] = useState(0);
-  const autoScrollRef = useRef<NodeJS.Timeout | null>(null);
+  const autoScrollRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
   const nextTestimonial = () => {
     setActiveIndex((prev) => (prev + 1) % testimonials.length);
