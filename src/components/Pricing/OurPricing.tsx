@@ -3,6 +3,19 @@ import { motion } from "framer-motion";
 const pricingOptions = [
   {
     id: 1,
+    title: "Mini Escape",
+    price: "£50",
+    description: "30-minute express treatment",
+    features: [
+      "Neck, shoulders & back",
+      "Perfect for busy schedules",
+      "Quick stress relief",
+    ],
+    buttonText: "Book Now",
+    highlight: false,
+  },
+  {
+    id: 2,
     title: "45 Minutes",
     price: "£65",
     description: "Perfect introduction to massage therapy",
@@ -15,7 +28,7 @@ const pricingOptions = [
     highlight: false,
   },
   {
-    id: 2,
+    id: 3,
     title: "60 Minutes",
     price: "£80",
     description: "Most popular choice for full relaxation",
@@ -28,7 +41,7 @@ const pricingOptions = [
     highlight: false,
   },
   {
-    id: 3,
+    id: 4,
     title: "90 Minutes",
     price: "£120",
     description: "Ultimate relaxation experience",
@@ -36,19 +49,6 @@ const pricingOptions = [
       "Deep tissue or relaxation",
       "Hot stones included",
       "Extended focus areas",
-    ],
-    buttonText: "Book Now",
-    highlight: false,
-  },
-  {
-    id: 4,
-    title: "Mini Escape",
-    price: "£50",
-    description: "30-minute express treatment",
-    features: [
-      "Neck, shoulders & back",
-      "Perfect for busy schedules",
-      "Quick stress relief",
     ],
     buttonText: "Book Now",
     highlight: false,

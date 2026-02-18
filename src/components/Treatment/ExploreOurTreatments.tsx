@@ -86,19 +86,19 @@ const treatments = [
   },
   {
     id: 6,
-    title: "Couples Retreat Massage",
+    title: "Office Massage – Mini Escape",
     description:
-      "Enjoy a relaxing side-by-side massage experience with your partner in a serene and private environment.",
+      "A quick and refreshing massage designed for office workers to relieve tension and recharge during a busy day.",
     bullets: [
-      "Strengthens connection",
-      "Reduces stress together",
-      "Promotes relaxation",
-      "Shared luxury experience",
+      "Neck & shoulder focus",
+      "Perfect for busy schedule",
+      "Reduces work stress",
+      "Boosts energy & productivity",
     ],
-    duration: "90 Minutes",
-    progress: "90%",
+    duration: "30 Minutes",
+    progress: "60%",
     image:
-      "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?q=80&w=1200",
+      "https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?q=80&w=1200",
   },
 ];
 /* ================================= */
