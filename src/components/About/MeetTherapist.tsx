@@ -1,17 +1,13 @@
 import { motion } from "framer-motion";
-
+import aboutmeet from "../../assets/home/aboutmeet.png";
 const therapist = {
   name: "Anna Smith",
   title: "Professional Certified Therapist",
-  image: "/images/therapist.jpg",
+  image: aboutmeet,
   description:
-    "With over 10 years of experience, Anna specializes in holistic therapies designed to restore balance, reduce stress, and improve overall wellbeing.",
-  specialties: [
-    "Stress & anxiety reduction",
-    "Deep tissue therapy",
-    "Holistic wellness approach",
-    "Pain relief management",
-  ],
+    "Our therapists bring together extensive professional training, practical experience, and a genuine passion for wellness to deliver exceptional care. Each session begins with understanding your individual needs and concerns, allowing treatments to be carefully tailored for the best possible results. Whether you are seeking relief from stress, easing muscle tension, or simply a moment of relaxation, every detail is thoughtfully considered to enhance your comfort and well-being.",
+  description2:
+    "With a calm and attentive approach, our therapists create a peaceful environment where you can fully unwind and feel confident in the care you receive. Their dedication to ongoing education and skill development ensures that they stay up to date with the latest techniques and industry standards. This commitment to excellence allows us to provide consistentlyhigh-quality treatments, helping you leave each visit feeling refreshed, renewed, and completely at ease.",
 };
 
 export default function MeetTherapist() {
@@ -35,21 +31,15 @@ export default function MeetTherapist() {
           viewport={{ once: false }}
         >
           <h2 className="text-3xl sm:text-4xl font-bold text-[#7BA05B] mb-2">
-            Meet Your Therapist
+            Experience You Can Trust.
           </h2>
-
-          <h3 className="text-xl font-semibold mb-1">{therapist.name}</h3>
+          {/* <h3 className="text-xl font-semibold mb-1">{therapist.name}</h3> */}
           <p className="text-[#7BA05B] mb-4 text-xl font-bold">
-            {therapist.title}
+            {/* {therapist.title} */}
           </p>
-
           <p className="text-gray-600 mb-4 text-xl">{therapist.description}</p>
-
-          <ul className="text-gray-600 space-y-1 text-xl">
-            {therapist.specialties.map((item, index) => (
-              <li key={index}>• {item}</li>
-            ))}
-          </ul>
+          <p className="text-gray-600 mb-4 text-xl">{therapist.description2}</p>
+          -
         </motion.div>
       </div>
     </section>

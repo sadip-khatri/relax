@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
-
+import homehero1 from "../../assets/home/homehero1.png";
 const story = {
   title: "Our Story",
-  image: "/images/story.jpg",
+  image: homehero1,
   description:
     "We believe wellness should be accessible, personal, and transformative. Our experienced therapists combine traditional techniques with modern approaches to create treatments tailored specifically to your needs. Whether you're seeking relaxation or therapeutic care, we are here to support your journey.",
 };

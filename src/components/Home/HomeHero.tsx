@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from "react";
+import homehero1 from "../../assets/home/homehero1.png";
+import homehero2 from "../../assets/home/homehero2.png";
+import homehero3 from "../../assets/home/homehero3.png";
 
-const images = ["/images/Hero.jpg---", "/images/spa2.jpg", "/images/spa3.jpg"];
+const images = [homehero1, homehero2, homehero3];
 
 const HomeHero = () => {
   const [current, setCurrent] = useState(0);
@@ -31,21 +34,21 @@ const HomeHero = () => {
       ))}
 
       {/* Dark Overlay */}
-      <div className="absolute inset-0 bg-black/40"></div>
+      <div className="absolute inset-0 bg-black/65"></div>
 
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-6">
         {/* Fixed Heading (Not Congested) */}
         <h1 className="text-white text-5xl md:text-6xl font-bold leading-tight tracking-wide">
-          Relax & Go Massage
+          Where Stress Ends and Healing Begins
         </h1>
 
         <p className="mt-6 max-w-xl text-lg md:text-xl text-gray-200 leading-relaxed">
-          Professional, results-focused massage therapy in a calm and private
-          setting.
+          Professional massage treatments tailored to relieve tension and renew
+          your energy.
         </p>
 
-        <button className="mt-8 bg-yellow-400 hover:bg-yellow-500 text-white px-8 py-4 rounded-full text-lg font-medium shadow-lg transition duration-300">
+        <button className="mt-8 bg-[#D4AF37] hover:bg-[#C19A2B] cursor-pointer text-white px-8 py-4 rounded-full text-lg font-medium shadow-lg transition duration-300">
           Chat on WhatsApp
         </button>
       </div>

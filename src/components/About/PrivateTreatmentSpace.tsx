@@ -1,21 +1,23 @@
 import { motion } from "framer-motion";
-
+import peaceful from "../../assets/About/peaceful.png";
+import clean from "../../assets/About/clean.png";
+import product from "../../assets/About/product.png";
 const spaces = [
   {
     title: "Peaceful Environment",
-    image: "/images/space1.jpg",
+    image: peaceful,
     description:
       "Designed to provide calmness and serenity from the moment you walk in.",
   },
   {
     title: "Spotlessly Clean",
-    image: "/images/space2.jpg",
+    image: clean,
     description:
       "Strict hygiene protocols ensure a safe and comfortable experience.",
   },
   {
     title: "Premium Products",
-    image: "/images/space3.jpg",
+    image: product,
     description: "We use only high-quality oils and therapeutic products.",
   },
 ];

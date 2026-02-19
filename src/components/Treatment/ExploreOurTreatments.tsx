@@ -1,8 +1,11 @@
 import { motion } from "framer-motion";
+import treatment1 from "../../assets/home/treatment1.png";
+import treatment2 from "../../assets/home/treatment2.png";
+// import treatment3 from "../../assets/home/treatment3.png"; // replace / import your other images
+import treatment4 from "../../assets/home/treatment4.png";
+import treatment5 from "../../assets/home/treatment5.png";
+import treatment6 from "../../assets/home/treatment6.png";
 
-/* ==============================
-   TREATMENTS DATA
-================================= */
 const treatments = [
   {
     id: 1,
@@ -17,8 +20,7 @@ const treatments = [
     ],
     duration: "60 Minutes",
     progress: "75%",
-    image:
-      "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=1200",
+    image: treatment1,
   },
   {
     id: 2,
@@ -33,8 +35,7 @@ const treatments = [
     ],
     duration: "75 Minutes",
     progress: "85%",
-    image:
-      "https://images.unsplash.com/photo-1600334129128-685c5582fd35?q=80&w=1200",
+    image: treatment2,
   },
   {
     id: 3,
