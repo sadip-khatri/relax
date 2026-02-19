@@ -3,6 +3,7 @@ import PriceDescription from "../../components/Pricing/PriceDescription";
 import OurPricing from "../../components/Pricing/OurPricing";
 import WhatsIncluded from "../../components/Pricing/WhatsIncluded";
 import ReadyToBookSession from "../../components/Pricing/ReadyToBookSession";
+import GetInTouch from "../../utils/GetInTouch";
 
 function Pricing() {
   return (
@@ -12,6 +13,7 @@ function Pricing() {
       <OurPricing />
       <WhatsIncluded />
       <ReadyToBookSession />
+      <GetInTouch />
     </div>
   );
 }

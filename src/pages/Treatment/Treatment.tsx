@@ -2,6 +2,7 @@ import TreatmentHero from "../../components/Treatment/TreatmentHero";
 import Description from "../../components/Treatment/Description";
 import ExploreOurTreatments from "../../components/Treatment/ExploreOurTreatments";
 import ReadyToExperienceRelief from "../../components/Treatment/ReadyToExperienceRelief";
+import GetInTouch from "../../utils/GetInTouch";
 
 function Treatment() {
   return (
@@ -10,6 +11,7 @@ function Treatment() {
       <Description />
       <ExploreOurTreatments />
       <ReadyToExperienceRelief />
+      <GetInTouch />
     </div>
   );
 }

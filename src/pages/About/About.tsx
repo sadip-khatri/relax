@@ -3,6 +3,7 @@ import OurStory from "../../components/About/OurStory";
 import CoreValues from "../../components/About/CoreValues";
 import MeetTherapist from "../../components/About/MeetTherapist";
 import PrivateTreatmentSpace from "../../components/About/PrivateTreatmentSpace";
+import GetInTouch from "../../utils/GetInTouch";
 
 function About() {
   return (
@@ -12,6 +13,7 @@ function About() {
       <CoreValues />
       <MeetTherapist />
       <PrivateTreatmentSpace />
+      <GetInTouch />
     </div>
   );
 }

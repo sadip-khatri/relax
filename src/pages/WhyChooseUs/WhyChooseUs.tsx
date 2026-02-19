@@ -3,6 +3,7 @@ import WhyDesc from "../../components/WhyChooseUs/WhyDesc";
 import FeaturesGrid from "../../components/WhyChooseUs/FeaturesGrid";
 import TestimonialsCarousel from "../../components/WhyChooseUs/TestimonialsCarousel";
 import ExperienceDifference from "../../components/WhyChooseUs/ExperienceDifference";
+import GetInTouch from "../../utils/GetInTouch";
 
 function WhyChooseUs() {
   return (
@@ -12,6 +13,7 @@ function WhyChooseUs() {
       <FeaturesGrid />
       <TestimonialsCarousel />
       <ExperienceDifference />
+      <GetInTouch />
     </div>
   );
 }
