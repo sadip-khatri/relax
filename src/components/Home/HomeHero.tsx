@@ -18,7 +18,7 @@ const HomeHero = () => {
   }, []);
 
   return (
-    <section className="relative h-screen w-full overflow-hidden">
+    <section className="relative w-full h-screen overflow-hidden">
       {/* Background Carousel */}
       {images.map((img, index) => (
         <div
@@ -34,22 +34,28 @@ const HomeHero = () => {
       ))}
 
       {/* Dark Overlay */}
-      <div className="absolute inset-0 bg-black/65"></div>
+      <div className="absolute inset-0 bg-black/60"></div>
 
       {/* Content */}
-      <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-6">
-        {/* Fixed Heading (Not Congested) */}
-        <h1 className="text-white text-5xl md:text-6xl font-bold leading-tight tracking-wide">
+      <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4 sm:px-6 lg:px-8">
+        {/* Heading */}
+        <h1 className="text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold leading-snug md:leading-tight lg:leading-tight tracking-wide">
           Where Stress Ends and Healing Begins
         </h1>
 
-        <p className="mt-6 max-w-xl text-lg md:text-xl text-gray-200 leading-relaxed">
+        {/* Subtext */}
+        <p className="mt-4 sm:mt-6 max-w-lg sm:max-w-xl md:max-w-2xl text-gray-200 text-base sm:text-lg md:text-xl leading-relaxed">
           Professional massage treatments tailored to relieve tension and renew
           your energy.
         </p>
 
-        <a href="https://wa.me/07848930217" target="_blank">
-          <button className="mt-8 bg-[#D4AF37] hover:bg-[#C19A2B] cursor-pointer text-white px-8 py-4 rounded-full text-lg font-medium shadow-lg transition duration-300">
+        {/* WhatsApp Button */}
+        <a
+          href="https://wa.me/07848930217"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className="mt-6 sm:mt-8 bg-[#D4AF37] hover:bg-[#C19A2B] text-white px-6 sm:px-8 md:px-10 py-3 sm:py-4 rounded-full text-base sm:text-lg md:text-xl font-medium shadow-lg transition duration-300">
             Chat on WhatsApp
           </button>
         </a>
