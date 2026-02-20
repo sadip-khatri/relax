@@ -116,22 +116,6 @@ const treatments = [
   },
   {
     id: 8,
-    title: "Reflexology Therapy",
-    description:
-      "Focused pressure applied to reflex points on the feet to stimulate natural healing processes throughout the body.",
-    bullets: [
-      "Improves nerve function",
-      "Boosts energy",
-      "Enhances circulation",
-      "Relieves tension",
-    ],
-    duration: "45 Minutes",
-    progress: "60%",
-    image:
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?q=80&w=1200",
-  },
-  {
-    id: 9,
     title: "Pregnancy Massage – Nurturing Care",
     description:
       "A gentle, therapeutic massage specially designed for expectant mothers. Using safe positioning and tailored techniques, it helps relieve common pregnancy discomforts while promoting relaxation and overall wellbeing for both mother and baby.",
