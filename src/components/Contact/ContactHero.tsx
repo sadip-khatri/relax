@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import ContactHeroImg from "../../assets/contact/hero.jpg";
+import ContactHeroImg from "../../assets/Contact/hero.jpg";
 
 export default function ContactHero() {
   return (
