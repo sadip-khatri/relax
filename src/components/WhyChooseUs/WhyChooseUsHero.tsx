@@ -4,21 +4,25 @@ import WhyHeroImg from "../../assets/Whychooseus/Hero.jpg";
 export default function WhyChooseUsHero() {
   return (
     <section
-      className="relative h-[70vh] bg-scroll md:bg-fixed bg-center bg-cover flex items-center justify-center text-white"
+      className="relative w-full min-h-[60vh] sm:min-h-[70vh] md:min-h-[80vh] flex items-center justify-center text-white overflow-hidden md:bg-fixed"
       style={{
         backgroundImage: `url(${WhyHeroImg})`,
+        backgroundPosition: "center",
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
       }}
     >
-      {/* Dark Overlay */}
-      <div className="absolute inset-0 bg-black/65"></div>
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-black/60"></div>
 
       {/* Content */}
-      <div className="relative z-10 text-center px-6">
+      <div className="relative z-10 text-center px-4 sm:px-6 md:px-10 max-w-4xl">
         <motion.h1
           initial={{ opacity: 0, y: -40 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4"
+          viewport={{ once: true }}
+          className="text-3xl sm:text-4xl md:text-6xl font-bold mb-4 leading-tight"
         >
           Why Choose Us
         </motion.h1>
@@ -27,7 +31,8 @@ export default function WhyChooseUsHero() {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="text-lg sm:text-xl md:text-2xl max-w-2xl mx-auto opacity-90"
+          viewport={{ once: true }}
+          className="text-base sm:text-lg md:text-2xl max-w-2xl mx-auto opacity-90"
         >
           Experience the difference of professional, personalized massage
           therapy
