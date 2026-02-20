@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import PricingHeroImg from "../../assets/pricing/hero.jpg";
+import PricingHeroImg from "../../assets/pricing/Hero.jpg";
 
 export default function PricingHero() {
   return (
