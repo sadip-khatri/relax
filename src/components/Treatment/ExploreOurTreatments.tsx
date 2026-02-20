@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import treatment1 from "../../assets/home/treatment1.png";
 import treatment2 from "../../assets/home/treatment2.png";
-// import treatment3 from "../../assets/home/treatment3.png"; // replace / import your other images
 import treatment4 from "../../assets/home/treatment4.png";
 import treatment5 from "../../assets/home/treatment5.png";
 import treatment6 from "../../assets/home/treatment6.png";
@@ -55,6 +54,51 @@ const treatments = [
   },
   {
     id: 4,
+    title: "Head Massage",
+    description:
+      "Specialized massage focusing on the head and scalp to relieve stress, improve circulation, and promote mental clarity.",
+    bullets: [
+      "Stress relief",
+      "Improves circulation",
+      "Enhances mental clarity",
+      "Relieves tension headaches",
+    ],
+    duration: "45 Minutes",
+    progress: "60%",
+    image: treatment4,
+  },
+  {
+    id: 5,
+    title: "Foot Massage",
+    description:
+      "Focused pressure and reflexology techniques on the feet to stimulate natural healing and full-body relaxation.",
+    bullets: [
+      "Reflexology techniques",
+      "Pressure point therapy",
+      "Full body relaxation",
+      "Boosts energy and circulation",
+    ],
+    duration: "45 Minutes",
+    progress: "65%",
+    image: treatment5,
+  },
+  {
+    id: 6,
+    title: "Office Massage – Mini Escape",
+    description:
+      "A quick and refreshing massage designed for office workers to relieve tension and recharge during a busy day.",
+    bullets: [
+      "Neck & shoulder focus",
+      "Perfect for busy schedule",
+      "Reduces work stress",
+      "Boosts energy & productivity",
+    ],
+    duration: "30 Minutes",
+    progress: "60%",
+    image: treatment6,
+  },
+  {
+    id: 7,
     title: "Aromatherapy Massage",
     description:
       "Essential oils are blended with relaxing massage techniques to create a deeply calming sensory experience.",
@@ -70,7 +114,7 @@ const treatments = [
       "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?q=80&w=1200",
   },
   {
-    id: 5,
+    id: 8,
     title: "Reflexology Therapy",
     description:
       "Focused pressure applied to reflex points on the feet to stimulate natural healing processes throughout the body.",
@@ -84,22 +128,6 @@ const treatments = [
     progress: "60%",
     image:
       "https://images.unsplash.com/photo-1556228720-195a672e8a03?q=80&w=1200",
-  },
-  {
-    id: 6,
-    title: "Office Massage – Mini Escape",
-    description:
-      "A quick and refreshing massage designed for office workers to relieve tension and recharge during a busy day.",
-    bullets: [
-      "Neck & shoulder focus",
-      "Perfect for busy schedule",
-      "Reduces work stress",
-      "Boosts energy & productivity",
-    ],
-    duration: "30 Minutes",
-    progress: "60%",
-    image:
-      "https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?q=80&w=1200",
   },
 ];
 /* ================================= */

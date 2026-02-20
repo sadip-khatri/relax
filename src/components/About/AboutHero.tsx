@@ -4,7 +4,7 @@ import aboutBg from "../../assets/About/abouthero.png"; // replace with your act
 export default function AboutHero() {
   return (
     <section
-      className="relative h-[50vh] w-full overflow-hidden flex items-center justify-center text-center"
+      className="relative h-[70vh] w-full overflow-hidden flex items-center justify-center text-center"
       style={{
         backgroundImage: `url(${aboutBg})`,
         backgroundSize: "cover",

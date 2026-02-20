@@ -11,9 +11,12 @@ const ReadyToBookSession = () => {
           packages
         </p>
 
-        <button className="bg-yellow-600 hover:bg-[#7BA05B] cursor-pointer text-white text-lg font-bold px-12 py-5 rounded-full shadow-md transition">
-          Book via WhatsApp
-        </button>
+        <a href="https://wa.me/07848930217" target="_blank">
+          {" "}
+          <button className="bg-yellow-600 hover:bg-[#7BA05B] cursor-pointer text-white text-lg font-bold px-12 py-5 rounded-full shadow-md transition">
+            Book via WhatsApp
+          </button>
+        </a>
       </div>
     </section>
   );

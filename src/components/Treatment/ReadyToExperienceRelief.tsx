@@ -1,20 +1,66 @@
 const ReadyToExperienceRelief = () => {
   return (
-    <section className="bg-white py-16 px-6 md:px-20 border-t">
+    <section className="bg-white border-t py-12 sm:py-16 md:py-20 px-4 sm:px-6 md:px-10 lg:px-20">
       <div className="max-w-4xl mx-auto text-center">
-        <h3 className="text-4xl font-bold text-[#7BA05B] mb-4">
+        {/* Heading */}
+        <h3
+          className="
+            font-bold text-[#7BA05B] mb-3 sm:mb-4 md:mb-5
+            
+            text-2xl
+            sm:text-3xl
+            md:text-4xl
+            lg:text-5xl
+          "
+        >
           Ready to Experience Relief?
         </h3>
 
-        <p className="text-gray-600 text-xl mb-8 leading-relaxed">
+        {/* Description */}
+        <p
+          className="
+            text-gray-600 mb-6 sm:mb-8
+            
+            text-sm
+            sm:text-base
+            md:text-lg
+            lg:text-xl
+            
+            leading-normal
+            sm:leading-relaxed
+            md:leading-loose
+          "
+        >
           Take the first step toward relaxation and wellness. Our expert
-          therapists are here to <br /> tailor each treatment to your unique
-          needs, ensuring a rejuvenating and restorative experience every time.
+          therapists are here to
+          <br className="hidden sm:block" />
+          tailor each treatment to your unique needs, ensuring a rejuvenating
+          and restorative experience every time.
         </p>
 
-        <button className="bg-yellow-600 hover:bg-[#7BA05B] cursor-pointer text-white text-lg font-bold px-12 py-5 rounded-full shadow-md transition">
-          Book an Appointment
-        </button>
+        {/* Button */}
+        <a href="https://wa.me/07848930217" target="_blank">
+          <button
+            className="
+            bg-yellow-600 hover:bg-[#7BA05B]
+            text-white font-bold rounded-full shadow-md
+            transition duration-300 cursor-pointer
+            
+            text-sm
+            sm:text-base
+            md:text-lg
+            
+            px-6 py-3
+            sm:px-8 sm:py-4
+            md:px-10 md:py-4
+            lg:px-12 lg:py-5
+            
+            w-full sm:w-auto
+          "
+          >
+            Book an Appointment
+          </button>
+        </a>
       </div>
     </section>
   );

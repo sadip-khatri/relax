@@ -1,45 +1,110 @@
 import { motion } from "framer-motion";
 import aboutmeet from "../../assets/home/aboutmeet.png";
+
 const therapist = {
   name: "Anna Smith",
   title: "Professional Certified Therapist",
   image: aboutmeet,
   description:
-    "Our therapists bring together extensive professional training, practical experience, and a genuine passion for wellness to deliver exceptional care. Each session begins with understanding your individual needs and concerns, allowing treatments to be carefully tailored for the best possible results. Whether you are seeking relief from stress, easing muscle tension, or simply a moment of relaxation, every detail is thoughtfully considered to enhance your comfort and well-being.",
+    "Our therapists bring together extensive professional training, practical experience, and a genuine passion for wellness to deliver exceptional care. Each session begins with understanding your individual needs and concerns, allowing treatments to be carefully tailored for the best possible results.",
   description2:
-    "With a calm and attentive approach, our therapists create a peaceful environment where you can fully unwind and feel confident in the care you receive. Their dedication to ongoing education and skill development ensures that they stay up to date with the latest techniques and industry standards. This commitment to excellence allows us to provide consistentlyhigh-quality treatments, helping you leave each visit feeling refreshed, renewed, and completely at ease.",
+    "With a calm and attentive approach, our therapists create a peaceful environment where you can fully unwind and feel confident in the care you receive. Their dedication ensures consistently high-quality treatments.",
 };
 
 export default function MeetTherapist() {
   return (
-    <section className="py-16 px-6 bg-gray-100 overflow-hidden">
-      <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
-        <motion.img
-          src={therapist.image}
-          alt={therapist.name}
-          initial={{ opacity: 0, x: -40 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.6 }}
-          viewport={{ once: false }}
-          className="rounded-2xl shadow-md w-full object-cover"
-        />
-
+    <section className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 bg-gray-100 overflow-hidden">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 lg:gap-16 items-center">
+        {/* IMAGE */}
         <motion.div
-          initial={{ opacity: 0, x: 40 }}
+          initial={{ opacity: 0, x: -60 }}
           whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.6 }}
-          viewport={{ once: false }}
+          transition={{ duration: 0.7 }}
+          viewport={{ once: false, amount: 0.3 }}
+          className="order-1"
         >
-          <h2 className="text-3xl sm:text-4xl font-bold text-[#7BA05B] mb-2">
+          <img
+            src={therapist.image}
+            alt={therapist.name}
+            className="
+              rounded-2xl shadow-lg w-full object-cover
+              h-[260px]
+              sm:h-[320px]
+              md:h-[400px]
+              lg:h-[480px]
+              xl:h-[520px]
+              transition duration-700 hover:scale-[1.02]
+            "
+          />
+        </motion.div>
+
+        {/* TEXT */}
+        <motion.div
+          initial={{ opacity: 0, x: 60 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.7 }}
+          viewport={{ once: false, amount: 0.3 }}
+          className="order-2 space-y-4 sm:space-y-5 md:space-y-6"
+        >
+          {/* Heading */}
+          <h2
+            className="
+            font-bold text-[#7BA05B]
+            text-2xl
+            sm:text-3xl
+            md:text-4xl
+            lg:text-5xl
+          "
+          >
             Experience You Can Trust.
           </h2>
-          {/* <h3 className="text-xl font-semibold mb-1">{therapist.name}</h3> */}
-          <p className="text-[#7BA05B] mb-4 text-xl font-bold">
-            {/* {therapist.title} */}
+
+          {/* Therapist name */}
+          <h3
+            className="
+            font-semibold text-gray-800
+            text-lg
+            sm:text-xl
+            md:text-2xl
+          "
+          >
+            {therapist.name}
+          </h3>
+
+          {/* Title */}
+          <p
+            className="
+            text-[#7BA05B] font-semibold
+            text-base
+            sm:text-lg
+            md:text-xl
+          "
+          >
+            {therapist.title}
           </p>
-          <p className="text-gray-600 mb-4 text-xl">{therapist.description}</p>
-          <p className="text-gray-600 mb-4 text-xl">{therapist.description2}</p>
-          -
+
+          {/* Description */}
+          <p
+            className="
+            text-gray-600 leading-relaxed
+            text-sm
+            sm:text-base
+            md:text-lg
+          "
+          >
+            {therapist.description}
+          </p>
+
+          <p
+            className="
+            text-gray-600 leading-relaxed
+            text-sm
+            sm:text-base
+            md:text-lg
+          "
+          >
+            {therapist.description2}
+          </p>
         </motion.div>
       </div>
     </section>

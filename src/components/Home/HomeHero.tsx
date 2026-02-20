@@ -48,9 +48,11 @@ const HomeHero = () => {
           your energy.
         </p>
 
-        <button className="mt-8 bg-[#D4AF37] hover:bg-[#C19A2B] cursor-pointer text-white px-8 py-4 rounded-full text-lg font-medium shadow-lg transition duration-300">
-          Chat on WhatsApp
-        </button>
+        <a href="https://wa.me/07848930217" target="_blank">
+          <button className="mt-8 bg-[#D4AF37] hover:bg-[#C19A2B] cursor-pointer text-white px-8 py-4 rounded-full text-lg font-medium shadow-lg transition duration-300">
+            Chat on WhatsApp
+          </button>
+        </a>
       </div>
     </section>
   );

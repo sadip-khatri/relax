@@ -1,13 +1,13 @@
 import { motion } from "framer-motion";
 
 const hours = [
-  { day: "Monday", time: "9:00 AM - 5:00 PM" },
-  { day: "Tuesday", time: "9:00 AM - 5:00 PM" },
-  { day: "Wednesday", time: "9:00 AM - 5:00 PM" },
-  { day: "Thursday", time: "9:00 AM - 5:00 PM" },
-  { day: "Friday", time: "9:00 AM - 4:00 PM" },
-  { day: "Saturday", time: "10:00 AM - 2:00 PM" },
-  { day: "Sunday", time: "Closed" },
+  { day: "Monday", time: "11:00 AM - 7:00 PM" },
+  { day: "Tuesday", time: "11:00 AM - 7:00 PM" },
+  { day: "Wednesday", time: "11:00 AM - 7:00 PM" },
+  { day: "Thursday", time: "11:00 AM - 7:00 PM" },
+  { day: "Friday", time: "11:00 AM - 7:00 PM" },
+  { day: "Saturday", time: "11:00 AM - 7:00 PM" },
+  { day: "Sunday", time: "11:00 AM - 7:00 PM" },
 ];
 
 const containerVariants = {

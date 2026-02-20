@@ -1,5 +1,5 @@
 import { Phone, Mail, MapPin, Facebook, Instagram } from "lucide-react";
-
+import { Link } from "react-router-dom";
 export default function Footer() {
   return (
     <footer className="bg-[#7BA05B] text-white pt-14 pb-6 px-6">
@@ -15,10 +15,26 @@ export default function Footer() {
         <div>
           <h3 className="text-2xl font-semibold mb-4">Quick Links</h3>
           <ul className="space-y-2 text-green-100 text-lg">
-            <li className="hover:text-white cursor-pointer">Home</li>
-            <li className="hover:text-white cursor-pointer">Our Treatments</li>
-            <li className="hover:text-white cursor-pointer">Pricing</li>
-            <li className="hover:text-white cursor-pointer">Contact Us</li>
+            <Link to="/">
+              <li className="hover:text-white cursor-pointer">Home</li>
+            </Link>
+            <Link to="/about">
+              <li className="hover:text-white cursor-pointer">About Us</li>
+            </Link>
+            <Link to="/treatments">
+              <li className="hover:text-white cursor-pointer">
+                Our Treatments
+              </li>
+            </Link>
+            <Link to="/pricing">
+              <li className="hover:text-white cursor-pointer">Pricing</li>
+            </Link>
+            <Link to="/whychooseus">
+              <li className="hover:text-white cursor-pointer">Why Choose Us</li>
+            </Link>
+            <Link to="/contactus">
+              <li className="hover:text-white cursor-pointer">Contact Us</li>
+            </Link>
           </ul>
         </div>
 
@@ -39,7 +55,7 @@ export default function Footer() {
               <Phone size={16} /> +44 123 456 789
             </li>
             <li className="flex items-center gap-2">
-              <Mail size={16} /> info@relaxandgomassage.com
+              <Mail size={16} /> relaxandgo@icloud.com
             </li>
             <li className="flex items-center gap-2">
               <MapPin size={16} /> London, UK

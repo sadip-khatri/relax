@@ -1,10 +1,11 @@
 import { motion } from "framer-motion";
 import treatment1 from "../../assets/home/treatment1.png";
 import treatment2 from "../../assets/home/treatment2.png";
+import { Link } from "react-router-dom";
 // import treatment3 from "../../assets/home/treatment3.png"; // replace / import your other images
-import treatment4 from "../../assets/home/treatment4.png";
-import treatment5 from "../../assets/home/treatment5.png";
-import treatment6 from "../../assets/home/treatment6.png";
+// import treatment4 from "../../assets/home/treatment4.png";
+// import treatment5 from "../../assets/home/treatment5.png";
+// import treatment6 from "../../assets/home/treatment6.png";
 
 const treatments = [
   {
@@ -24,29 +25,6 @@ const treatments = [
       "Stretching techniques",
       "Energy flow balance",
       "Flexibility improvement",
-    ],
-  },
-  {
-    title: "Head Massage",
-    image: treatment4,
-    features: ["Stress relief", "Improves circulation", "Mental clarity"],
-  },
-  {
-    title: "Foot Massage",
-    image: treatment5,
-    features: [
-      "Reflexology techniques",
-      "Pressure point therapy",
-      "Full body relaxation",
-    ],
-  },
-  {
-    title: "Office Massage - Mini Escape",
-    image: treatment6,
-    features: [
-      "30 Minutes",
-      "Neck & shoulder focus",
-      "Perfect for busy schedule",
     ],
   },
 ];
@@ -114,6 +92,11 @@ export default function Treatments() {
             </motion.div>
           ))}
         </motion.div>
+        <Link to="/treatments">
+          <button className="mx-auto mt-10 block bg-[#D4AF37] hover:bg-[#C19A2B] cursor-pointer text-white px-6 py-3 rounded-full text-lg font-semibold transition">
+            Explore Our Treatments
+          </button>
+        </Link>
       </div>
     </section>
   );

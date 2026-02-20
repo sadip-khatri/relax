@@ -3,21 +3,21 @@ import { Phone, MessageCircle, Mail, Clock } from "lucide-react";
 
 export default function ContactSection() {
   const contactItems = [
-    { icon: <Phone size={40} />, title: "Phone", info: "+44 20 1234 5678" },
+    { icon: <Phone size={40} />, title: "Phone", info: "+44 07848930217" },
     {
       icon: <MessageCircle size={40} />,
       title: "WhatsApp",
-      info: "+44 20 1234 5678",
+      info: "+44 07848930217",
     },
     {
       icon: <Mail size={40} />,
       title: "Email",
-      info: "info@relaxinghands.com",
+      info: "relaxandgo@icloud.com",
     },
     {
       icon: <Clock size={40} />,
       title: "Opening Hours",
-      info: "Mon–Sun | 9AM – 8PM",
+      info: "Mon–Sun | 11AM – 7PM",
     },
   ];
 

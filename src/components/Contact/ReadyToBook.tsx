@@ -11,13 +11,17 @@ const ReadyToBook: React.FC = () => {
         </p>
 
         <div className="flex justify-center gap-4">
-          <button className="bg-[#7BA05B] text-white px-6 py-6 rounded-4xl cursor-pointer flex items-center gap-2 hover:bg-green-700">
-            Book via WhatsApp
-          </button>
+          <a href="https://wa.me/07848930217" target="_blank">
+            <button className="bg-[#7BA05B] text-white px-6 py-6 rounded-4xl cursor-pointer flex items-center gap-2 hover:bg-green-700">
+              Book via WhatsApp
+            </button>
+          </a>
 
-          <button className="border border-green-600 text-[#7BA05B] px-12 py-6 rounded-4xl cursor-pointer flex items-center gap-2 hover:bg-green-50">
-            Call Us Now
-          </button>
+          <a href="https://wa.me/07848930217" target="_blank">
+            <button className="border border-green-600 text-[#7BA05B] px-12 py-6 rounded-4xl cursor-pointer flex items-center gap-2 hover:bg-green-50">
+              Call Us Now
+            </button>
+          </a>
         </div>
       </div>
     </section>
