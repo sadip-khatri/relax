@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import HeroImg from "../../assets/Hero.jpg"; // ✅ FIXED
+import HeroImg from "../../assets/Hero.jpg"; 
 
 const PrivateTreatment = () => {
   return (
