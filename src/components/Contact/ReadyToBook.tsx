@@ -15,7 +15,7 @@ const ReadyToBook: React.FC = () => {
         {/* Buttons */}
         <div className="flex flex-col sm:flex-row justify-center items-center gap-4 pt-4">
           <a
-            href="https://wa.me/07848930217"
+            href="https://wa.me/447848930217"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full sm:w-auto"
@@ -25,7 +25,7 @@ const ReadyToBook: React.FC = () => {
             </button>
           </a>
 
-          <a href="tel:07848930217" className="w-full sm:w-auto">
+          <a href="tel:447848930217" className="w-full sm:w-auto">
             <button className="w-full sm:w-auto border border-green-600 text-[#7BA05B] px-6 py-3 sm:px-8 sm:py-4 rounded-full font-semibold hover:bg-green-50 transition duration-300">
               Call Us Now
             </button>

@@ -39,7 +39,7 @@ const ReadyToExperienceRelief = () => {
         </p>
 
         {/* Button */}
-        <a href="https://wa.me/07848930217" target="_blank">
+        <a href="https://wa.me/447848930217" target="_blank">
           <button
             className="
             bg-yellow-600 hover:bg-[#7BA05B]
