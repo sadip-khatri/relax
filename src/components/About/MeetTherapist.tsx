@@ -2,8 +2,6 @@ import { motion } from "framer-motion";
 import aboutmeet from "../../assets/home/aboutmeet.png";
 
 const therapist = {
-  name: "Anna Smith",
-  title: "Professional Certified Therapist",
   image: aboutmeet,
   description:
     "Our therapists bring together extensive professional training, practical experience, and a genuine passion for wellness to deliver exceptional care. Each session begins with understanding your individual needs and concerns, allowing treatments to be carefully tailored for the best possible results.",
@@ -25,7 +23,7 @@ export default function MeetTherapist() {
         >
           <img
             src={therapist.image}
-            alt={therapist.name}
+            // alt={therapist.name}
             className="
               rounded-2xl shadow-lg w-full object-cover
               h-[260px]
@@ -68,7 +66,7 @@ export default function MeetTherapist() {
             md:text-2xl
           "
           >
-            {therapist.name}
+            {/* {therapist.name} */}
           </h3>
 
           {/* Title */}
@@ -80,7 +78,7 @@ export default function MeetTherapist() {
             md:text-xl
           "
           >
-            {therapist.title}
+            {/* {therapist.title} */}
           </p>
 
           {/* Description */}
