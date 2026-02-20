@@ -63,7 +63,7 @@ export default function VisionStory() {
               lg:text-5xl
             "
           >
-            Our Vision & Story
+            Our Vision
           </motion.h2>
 
           {/* Accent line */}
