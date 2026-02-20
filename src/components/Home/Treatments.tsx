@@ -2,10 +2,7 @@ import { motion } from "framer-motion";
 import treatment1 from "../../assets/home/treatment1.png";
 import treatment2 from "../../assets/home/treatment2.png";
 import { Link } from "react-router-dom";
-// import treatment3 from "../../assets/home/treatment3.png"; // replace / import your other images
-// import treatment4 from "../../assets/home/treatment4.png";
-// import treatment5 from "../../assets/home/treatment5.png";
-// import treatment6 from "../../assets/home/treatment6.png";
+import treatment3 from "../../assets/home/thaimassage.jpg";
 
 const treatments = [
   {
@@ -20,7 +17,7 @@ const treatments = [
   },
   {
     title: "Thai Massage",
-    // image: treatment3,
+    image: treatment3,
     features: [
       "Stretching techniques",
       "Energy flow balance",

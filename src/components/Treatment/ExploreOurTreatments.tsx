@@ -4,6 +4,8 @@ import treatment2 from "../../assets/home/treatment2.png";
 import treatment4 from "../../assets/home/treatment4.png";
 import treatment5 from "../../assets/home/treatment5.png";
 import treatment6 from "../../assets/home/treatment6.png";
+import thaimassage from "../../assets/home/thaimassage.jpg";
+import pregnancyMassage from "../../assets/home/pregnancyMassage.jpg";
 
 const treatments = [
   {
@@ -49,8 +51,7 @@ const treatments = [
     ],
     duration: "60 Minutes",
     progress: "70%",
-    image:
-      "https://images.unsplash.com/photo-1591343395082-e120087004b4?q=80&w=1200",
+    image: thaimassage,
   },
   {
     id: 4,
@@ -128,6 +129,21 @@ const treatments = [
     progress: "60%",
     image:
       "https://images.unsplash.com/photo-1556228720-195a672e8a03?q=80&w=1200",
+  },
+  {
+    id: 9,
+    title: "Pregnancy Massage – Nurturing Care",
+    description:
+      "A gentle, therapeutic massage specially designed for expectant mothers. Using safe positioning and tailored techniques, it helps relieve common pregnancy discomforts while promoting relaxation and overall wellbeing for both mother and baby.",
+    bullets: [
+      "Relieves back pain & swollen legs",
+      "Safe side-lying positioning",
+      "Reduces muscle tension & fatigue",
+      "Promotes relaxation & better circulation",
+    ],
+    duration: "60 Minutes",
+    progress: "60%",
+    image: pregnancyMassage,
   },
 ];
 /* ================================= */
