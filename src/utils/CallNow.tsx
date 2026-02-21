@@ -2,11 +2,11 @@ import { FaPhoneAlt } from "react-icons/fa";
 
 function CallNow() {
   return (
-    <div className="fixed right-6 bottom-30 z-90">
+    <div className="fixed right-5 bottom-30 z-90">
       <div className="bg-white rounded-full shadow-lg hover:scale-90 transition duration-300">
         <a
           href="tel:+447848930217"
-          className="p-2 flex items-center justify-center"
+          className="p-3 flex items-center justify-center"
         >
           <svg width="30" height="30" viewBox="0 0 16 16">
             <defs>
