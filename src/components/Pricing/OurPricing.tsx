@@ -57,7 +57,7 @@ const pricingOptions = [
     id: 5,
     title: "3 Hour Package",
     price: "£195",
-    description: "Save £40 with our package deal",
+    description: "Save £45 with our package deal",
     features: [
       "Four 60-minute sessions",
       "Mix and match treatments",
