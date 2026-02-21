@@ -5,6 +5,7 @@ import MeetTherapist from "../../components/About/MeetTherapist";
 import PrivateTreatmentSpace from "../../components/About/PrivateTreatmentSpace";
 import GetInTouch from "../../utils/GetInTouch";
 import VisionStory from "../../components/About/VisionStory";
+import CallNow from "../../utils/CallNow";
 
 function About() {
   return (
@@ -15,6 +16,7 @@ function About() {
       <VisionStory />
       <MeetTherapist />
       <PrivateTreatmentSpace />
+      <CallNow />
       <GetInTouch />
     </div>
   );

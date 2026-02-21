@@ -52,7 +52,7 @@ export default function Footer() {
           <h3 className="text-2xl font-semibold mb-4">Contact</h3>
           <ul className="space-y-3 text-green-100 text-lg">
             <li className="flex items-center gap-2">
-              <Phone size={16} /> +44 123 456 789
+              <Phone size={16} /> +44 07848930217
             </li>
             <li className="flex items-center gap-2">
               <Mail size={16} /> relaxandgo@icloud.com

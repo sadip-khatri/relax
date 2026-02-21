@@ -4,6 +4,7 @@ import VisitOurLocation from "../../components/Contact/VisitOurLocation";
 import BusinessHours from "../../components/Contact/BusinessHours";
 import ReadyToBook from "../../components/Contact/ReadyToBook";
 import GetInTouch from "../../utils/GetInTouch";
+import CallNow from "../../utils/CallNow";
 
 function Contact() {
   return (
@@ -13,6 +14,7 @@ function Contact() {
       <VisitOurLocation />
       <BusinessHours />
       <ReadyToBook />
+      <CallNow />
       <GetInTouch />
     </div>
   );

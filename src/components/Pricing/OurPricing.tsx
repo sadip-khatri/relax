@@ -55,8 +55,8 @@ const pricingOptions = [
   },
   {
     id: 5,
-    title: "4 Hour Package",
-    price: "£280",
+    title: "3 Hour Package",
+    price: "£195",
     description: "Save £40 with our package deal",
     features: [
       "Four 60-minute sessions",

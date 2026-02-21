@@ -3,6 +3,7 @@ import Description from "../../components/Treatment/Description";
 import ExploreOurTreatments from "../../components/Treatment/ExploreOurTreatments";
 import ReadyToExperienceRelief from "../../components/Treatment/ReadyToExperienceRelief";
 import GetInTouch from "../../utils/GetInTouch";
+import CallNow from "../../utils/CallNow";
 
 function Treatment() {
   return (
@@ -11,6 +12,7 @@ function Treatment() {
       <Description />
       <ExploreOurTreatments />
       <ReadyToExperienceRelief />
+      <CallNow />
       <GetInTouch />
     </div>
   );

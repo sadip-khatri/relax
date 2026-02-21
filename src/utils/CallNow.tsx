@@ -1,15 +1,14 @@
-import { FaWhatsapp } from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa";
 
-function GetInTouch() {
+function CallNow() {
   return (
-    <div className="fixed right-5 bottom-10 z-90">
-      <div className="bg-white rounded-full shadow-lg hover:scale-90">
+    <div className="fixed right-6 bottom-30 z-90">
+      <div className="bg-white rounded-full shadow-lg hover:scale-90 transition duration-300">
         <a
-          href="https://wa.me/447848930217"
-          target="_blank"
+          href="tel:+447848930217"
           className="p-2 flex items-center justify-center"
         >
-          <svg width="40" height="40" viewBox="0 0 16 16">
+          <svg width="30" height="30" viewBox="0 0 16 16">
             <defs>
               <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
                 <stop offset="0%" stopColor="#6DBE45" />
@@ -17,7 +16,7 @@ function GetInTouch() {
                 <stop offset="100%" stopColor="#1E7A1E" />
               </linearGradient>
             </defs>
-            <FaWhatsapp
+            <FaPhoneAlt
               width={24}
               height={24}
               style={{ fill: "url(#gradient)" }}
@@ -29,4 +28,4 @@ function GetInTouch() {
   );
 }
 
-export default GetInTouch;
+export default CallNow;

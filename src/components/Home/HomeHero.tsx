@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import homehero1 from "../../assets/home/homehero1.png";
 import homehero2 from "../../assets/home/Homehero2.png";
-import homehero3 from "../../assets/home/homehero3.png";
+// import homehero3 from "../../assets/home/homehero3.png";
 
-const images = [homehero1, homehero2, homehero3];
+const images = [homehero1, homehero2];
 
 const HomeHero = () => {
   const [current, setCurrent] = useState(0);

@@ -4,6 +4,7 @@ import FeaturesGrid from "../../components/WhyChooseUs/FeaturesGrid";
 import TestimonialsCarousel from "../../components/WhyChooseUs/TestimonialsCarousel";
 import ExperienceDifference from "../../components/WhyChooseUs/ExperienceDifference";
 import GetInTouch from "../../utils/GetInTouch";
+import CallNow from "../../utils/CallNow";
 
 function WhyChooseUs() {
   return (
@@ -13,6 +14,7 @@ function WhyChooseUs() {
       <FeaturesGrid />
       <TestimonialsCarousel />
       <ExperienceDifference />
+      <CallNow />
       <GetInTouch />
     </div>
   );

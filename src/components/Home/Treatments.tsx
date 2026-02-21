@@ -67,7 +67,8 @@ export default function Treatments() {
               className="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
             >
               {/* Image Section */}
-              <div className="h-64 w-full overflow-hidden">
+              {/* Image Section */}
+              <div className="w-full aspect-[4/3] bg-gray-100">
                 <img
                   src={item.image}
                   alt={item.title}
