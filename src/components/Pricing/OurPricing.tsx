@@ -59,9 +59,9 @@ const pricingOptions = [
     price: "£195",
     description: "Save £45 with our package deal",
     features: [
-      "Four 60-minute sessions",
+      "three 60-minute sessions",
       "Mix and match treatments",
-      "Valid for 6 months",
+      "Valid for next 12 months",
       "Priority booking",
     ],
     buttonText: "Book Package",
