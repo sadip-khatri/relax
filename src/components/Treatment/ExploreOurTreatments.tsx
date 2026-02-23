@@ -10,81 +10,6 @@ import pregnancyMassage from "../../assets/home/pregnancyMassage.jpg";
 const treatments = [
   {
     id: 1,
-    title: "Relaxation Massage & Hot Stones",
-    description:
-      "A soothing full-body therapy combining traditional massage techniques with warm basalt stones. The gentle heat melts away muscle tension while calming your nervous system.",
-    bullets: [
-      "Reduces stress and anxiety",
-      "Improves blood circulation",
-      "Promotes muscle relaxation",
-      "Enhances sleep quality",
-    ],
-    duration: "60 Minutes",
-    progress: "75%",
-    image: treatment1,
-  },
-  {
-    id: 2,
-    title: "Deep Tissue Massage",
-    description:
-      "Designed to target deeper muscle layers, this therapy relieves chronic tightness and restores flexibility. Perfect for athletes or those with persistent discomfort.",
-    bullets: [
-      "Targets deep muscle layers",
-      "Reduces chronic pain",
-      "Improves flexibility",
-      "Enhances posture",
-    ],
-    duration: "75 Minutes",
-    progress: "85%",
-    image: treatment2,
-  },
-  {
-    id: 3,
-    title: "Thai Massage – Signature Focus",
-    description:
-      "A dynamic blend of assisted stretching and rhythmic pressure techniques that stimulates energy flow and improves mobility.",
-    bullets: [
-      "Boosts energy levels",
-      "Improves joint mobility",
-      "Enhances circulation",
-      "Relieves stiffness",
-    ],
-    duration: "60 Minutes",
-    progress: "70%",
-    image: thaimassage,
-  },
-  {
-    id: 4,
-    title: "Head Massage",
-    description:
-      "Specialized massage focusing on the head and scalp to relieve stress, improve circulation, and promote mental clarity.",
-    bullets: [
-      "Stress relief",
-      "Improves circulation",
-      "Enhances mental clarity",
-      "Relieves tension headaches",
-    ],
-    duration: "45 Minutes",
-    progress: "60%",
-    image: treatment4,
-  },
-  {
-    id: 5,
-    title: "Foot Massage",
-    description:
-      "Focused pressure and reflexology techniques on the feet to stimulate natural healing and full-body relaxation.",
-    bullets: [
-      "Reflexology techniques",
-      "Pressure point therapy",
-      "Full body relaxation",
-      "Boosts energy and circulation",
-    ],
-    duration: "45 Minutes",
-    progress: "65%",
-    image: treatment5,
-  },
-  {
-    id: 6,
     title: "Office Massage – Mini Escape",
     description:
       "A quick and refreshing massage designed for office workers to relieve tension and recharge during a busy day.",
@@ -99,7 +24,67 @@ const treatments = [
     image: treatment6,
   },
   {
-    id: 7,
+    id: 2,
+    title: "Head Massage",
+    description:
+      "Specialized massage focusing on the head and scalp to relieve stress, improve circulation, and promote mental clarity.",
+    bullets: [
+      "Stress relief",
+      "Improves circulation",
+      "Enhances mental clarity",
+      "Relieves tension headaches",
+    ],
+    duration: "45 Minutes",
+    progress: "60%",
+    image: treatment4,
+  },
+  {
+    id: 3,
+    title: "Foot Massage",
+    description:
+      "Focused pressure and reflexology techniques on the feet to stimulate natural healing and full-body relaxation.",
+    bullets: [
+      "Reflexology techniques",
+      "Pressure point therapy",
+      "Full body relaxation",
+      "Boosts energy and circulation",
+    ],
+    duration: "45 Minutes",
+    progress: "65%",
+    image: treatment5,
+  },
+  {
+    id: 4,
+    title: "Deep Tissue Massage",
+    description:
+      "Designed to target deeper muscle layers, this therapy relieves chronic tightness and restores flexibility. Perfect for athletes or those with persistent discomfort.",
+    bullets: [
+      "Targets deep muscle layers",
+      "Reduces chronic pain",
+      "Improves flexibility",
+      "Enhances posture",
+    ],
+    duration: "75 Minutes",
+    progress: "85%",
+    image: treatment2,
+  },
+  {
+    id: 5,
+    title: "Thai Massage – Signature Focus",
+    description:
+      "A dynamic blend of assisted stretching and rhythmic pressure techniques that stimulates energy flow and improves mobility.",
+    bullets: [
+      "Boosts energy levels",
+      "Improves joint mobility",
+      "Enhances circulation",
+      "Relieves stiffness",
+    ],
+    duration: "60 Minutes",
+    progress: "70%",
+    image: thaimassage,
+  },
+  {
+    id: 6,
     title: "Aromatherapy Massage",
     description:
       "Essential oils are blended with relaxing massage techniques to create a deeply calming sensory experience.",
@@ -113,6 +98,21 @@ const treatments = [
     progress: "65%",
     image:
       "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?q=80&w=1200",
+  },
+  {
+    id: 7,
+    title: "Relaxation Massage & Hot Stones",
+    description:
+      "A soothing full-body therapy combining traditional massage techniques with warm basalt stones. The gentle heat melts away muscle tension while calming your nervous system.",
+    bullets: [
+      "Reduces stress and anxiety",
+      "Improves blood circulation",
+      "Promotes muscle relaxation",
+      "Enhances sleep quality",
+    ],
+    duration: "60 Minutes",
+    progress: "75%",
+    image: treatment1,
   },
   {
     id: 8,
