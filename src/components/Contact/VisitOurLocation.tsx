@@ -44,7 +44,7 @@ const VisitOurLocation: React.FC = () => {
           <div className="space-y-3 text-lg text-gray-600">
             <div className="flex items-center gap-3">
               <MapPin className="text-[#7BA05B] w-5 h-5" />
-              <span>29 Creek Road, East Molesey KT8BE</span>
+              <span>29 Creek Road, East Molesey KT8 9 BE</span>
             </div>
 
             <div className="flex items-center gap-3">
