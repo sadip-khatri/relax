@@ -17,7 +17,7 @@ const pricingOptions = [
   {
     id: 2,
     title: "45 Minutes",
-    price: "£65",
+    price: "£60",
     description: "Perfect introduction to massage therapy",
     features: [
       "Full body massage",
@@ -30,7 +30,7 @@ const pricingOptions = [
   {
     id: 3,
     title: "60 Minutes",
-    price: "£80",
+    price: "£75",
     description: "Most popular choice for full relaxation",
     features: [
       "Extended full body massage",

@@ -17,7 +17,7 @@ export default function ContactSection() {
     {
       icon: <Clock size={40} />,
       title: "Opening Hours",
-      info: "Mon–Sun | 11AM – 7PM",
+      info: "Mon–Sun | 11AM – 8PM",
     },
   ];
 

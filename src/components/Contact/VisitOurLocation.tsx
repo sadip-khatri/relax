@@ -21,7 +21,7 @@ const VisitOurLocation: React.FC = () => {
             Visit Our Location
           </h2>
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1244.5259721139214!2d-0.34687075050120747!3d51.40210024806476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760b112285ea69%3A0x402ca50f7dccf42b!2s29%20Creek%20Rd%2C%20Molesey%2C%20East%20Molesey%20KT8%209BE%2C%20UK!5e0!3m2!1sen!2snp!4v1771567105160!5m2!1sen!2snp"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2487.743520892138!2d-0.34367281063032423!3d51.426137899070376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760b7c915192c9%3A0xe3deef29c1ecfca7!2sKC%20Pharmacy%20%26%20Travel%20Clinic!5e0!3m2!1sen!2snp!4v1778073986201!5m2!1sen!2snp"
             width="100%"
             height="450"
             style={{ border: 0 }}
@@ -44,7 +44,7 @@ const VisitOurLocation: React.FC = () => {
           <div className="space-y-3 text-lg text-gray-600">
             <div className="flex items-center gap-3">
               <MapPin className="text-[#7BA05B] w-5 h-5" />
-              <span>29 Creek Road, East Molesey KT8 9 BE</span>
+              <span>23 Broad St, teddington TW11 8QZ</span>
             </div>
 
             <div className="flex items-center gap-3">
