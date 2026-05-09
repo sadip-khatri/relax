@@ -24,10 +24,7 @@ function Home() {
         />
 
         {/* Open Graph (Facebook/LinkedIn) */}
-        <meta
-          property="og:title"
-          content="Relax & Go Massage – Calm Body, Clear Mind"
-        />
+        <meta property="og:title" content="Relax & Go Massage – Calm Body, Clear Mind" />
         <meta
           property="og:description"
           content="Relax & Go Massage delivers massage services in London for stress relief and total wellbeing."
