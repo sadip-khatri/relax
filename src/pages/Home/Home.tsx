@@ -13,7 +13,7 @@ function Home() {
     <div>
       {/* SEO Meta Tags */}
       <Helmet>
-        <title>Relax & Go Massage – Premier Spa & Massage in United Kingdom</title>
+        <title>Relax & Go Massage – Calm Body, Clear Mind</title>
         <meta
           name="description"
           content="Relax & Go Massage offers professional spa and massage treatments in London. Experience deep relaxation, stress relief & rejuvenation."
@@ -21,7 +21,7 @@ function Home() {
         <meta name="keywords" content="spa massage London, professional massage London, relaxation spa UK" />
 
         {/* Open Graph (Facebook/LinkedIn) */}
-        <meta property="og:title" content="Relax & Go Massage – Premier Spa & Massage in London" />
+        <meta property="og:title" content="Relax & Go Massage – Calm Body, Clear Mind" />
         <meta
           property="og:description"
           content="Relax & Go Massage delivers premium spa and massage services in London for stress relief and total wellbeing."
