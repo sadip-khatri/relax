@@ -4,7 +4,10 @@ import homehero2 from "../../assets/home/Homehero2.png";
 
 const images = [
   { src: homehero1, alt: "Relax & Go Massage treatment room London" },
-  { src: homehero2, alt: "Professional spa therapy massage at Relax & Go Massage London" }
+  {
+    src: homehero2,
+    alt: "Professional spa therapy massage at Relax & Go Massage London",
+  },
 ];
 
 const HomeHero = () => {
@@ -18,7 +21,10 @@ const HomeHero = () => {
   }, []);
 
   return (
-    <section aria-label="Hero section – Relax & Go Massage in London" className="relative w-full h-screen overflow-hidden">
+    <section
+      aria-label="Hero section – Relax & Go Massage in London"
+      className="relative w-full h-screen overflow-hidden"
+    >
       {images.map((image, index) => (
         <img
           key={index}
@@ -37,10 +43,11 @@ const HomeHero = () => {
       {/* Hero text */}
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4 sm:px-6 lg:px-8">
         <h1 className="text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold leading-snug tracking-wide">
-          Relax & Go Massage – London’s Premier Spa Experience
+          Relax & Go Massage – Calm Body, Clear Mind
         </h1>
         <p className="mt-4 sm:mt-6 max-w-xl text-gray-200 text-lg md:text-xl">
-          Expert massage treatments tailored for relaxation, stress relief, and total wellness in the heart of London.
+          Expert massage treatments tailored for relaxation, stress relief, and
+          total wellness in the heart of London.
         </p>
         <a
           href="https://wa.me/447848930217"
