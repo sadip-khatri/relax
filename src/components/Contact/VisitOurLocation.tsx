@@ -5,7 +5,8 @@ const VisitOurLocation: React.FC = () => {
   // const latitude = 51.40210024806476;
   // const longitude = -0.34687075050120747;
 
-  const googleMapsUrl = `https://www.google.com/maps/place/29+Creek+Rd,+Molesey,+East+Molesey+KT8+9BE,+UK/@51.4021002,-0.3468708,18z/data=!3m1!4b1!4m10!1m2!2m1!1s29+Creek+Road,+East+Molesey+KT8BE!3m6!1s0x48760b112285ea69:0x402ca50f7dccf42b!8m2!3d51.4020986!4d-0.3444353!15sCiEyOSBDcmVlayBSb2FkLCBFYXN0IE1vbGVzZXkgS1Q4QkWSARFjb21wb3VuZF9idWlsZGluZ-ABAA!16s%2Fg%2F11b8v4qn7x?entry=ttu&g_ep=EgoyMDI2MDIxNy4wIKXMDSoASAFQAw%3D%3D`;
+  const googleMapsUrl =
+    "https://www.google.com/maps/search/?api=1&query=KC+Pharmacy+%26+Travel+Clinic+Teddington";
 
   return (
     <section className="w-full py-12 overflow-hidden">
@@ -49,7 +50,7 @@ const VisitOurLocation: React.FC = () => {
 
             <div className="flex items-center gap-3">
               <Building2 className="text-[#7BA05B] w-5 h-5" />
-              <span>East Molesey</span>
+              <span>Teddington</span>
             </div>
 
             <div className="flex items-center gap-3">
