@@ -8,16 +8,19 @@ const treatments = [
   {
     title: "Relaxation Massage & Hot Stones",
     image: treatment1,
+    alt: "Relaxation massage with hot stone therapy at Relax & Go Massage London",
     features: ["60/90 Minutes", "Hot Stone Therapy", "Deep relaxation"],
   },
   {
     title: "Deep Tissue Massage",
     image: treatment2,
+    alt: "Professional deep tissue massage treatment in London",
     features: ["60/90 Minutes", "Muscle tension relief", "Pain management"],
   },
   {
     title: "Thai Massage",
     image: treatment3,
+    alt: "Traditional Thai massage therapy session in London spa",
     features: [
       "Stretching techniques",
       "Energy flow balance",
@@ -38,7 +41,7 @@ export default function Treatments() {
           viewport={{ once: false }}
           className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#7BA05B] text-center mb-10 sm:mb-12"
         >
-          Our Treatments
+         Professional Massage Treatments in London
         </motion.h2>
 
         {/* Responsive Grid */}
@@ -69,11 +72,12 @@ export default function Treatments() {
               {/* Image Section */}
               {/* Image Section */}
               <div className="w-full aspect-[4/3] bg-gray-100">
-                <img
-                  src={item.image}
-                  alt={item.title}
-                  className="w-full h-full object-cover"
-                />
+               <img
+  src={item.image}
+  alt={item.alt}
+  className="w-full h-full object-cover"
+  loading="lazy"
+/>
               </div>
 
               {/* Content */}
@@ -90,7 +94,7 @@ export default function Treatments() {
             </motion.div>
           ))}
         </motion.div>
-        <Link to="/treatments">
+        <Link to="/treatments" aria-label="Explore all professional massage treatments in London">
           <button className="mx-auto mt-10 block bg-[#D4AF37] hover:bg-[#C19A2B] cursor-pointer text-white px-6 py-3 rounded-full text-lg font-semibold transition">
             Explore Our Treatments
           </button>
